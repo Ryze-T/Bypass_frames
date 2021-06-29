@@ -1,2 +1,2 @@
 # Bypass_frames
- Store some frames to bypass AV
+存放一些用来 bypass 杀软的框架
