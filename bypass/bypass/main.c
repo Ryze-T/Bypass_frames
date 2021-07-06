@@ -46,7 +46,7 @@ BOOL WriteResourceToDisk(LPWSTR path) {
 	hFile = CreateFileW(path, GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);	//在当前目录下创建文件
 	if (hFile == INVALID_HANDLE_VALUE)
 	{
-		printf("[!] Failed to create procexp\n");
+		printf("[!] Failed to create bin\n");
 		return FALSE;
 	}
 
